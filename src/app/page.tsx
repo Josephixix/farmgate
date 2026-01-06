@@ -8,8 +8,7 @@ import Faq from "@/components/ui/Faq";
 export default function Home() {
   return (
   <>
-  <Hero/>
-  <Trust/>  
+  <Hero/> 
   <Produce/>  
   <Why/>  
   <Faq/>    

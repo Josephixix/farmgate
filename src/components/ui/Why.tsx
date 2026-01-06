@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function WhyChooseUs() {
   return (
-    <section className="bg-zinc-50 pt-24 pb-12">
+    <section className="bg-[#F5EEE9] pt-24 pb-12">
       <div className="mx-auto grid w-full max-w-6xl grid-cols-1 gap-12 px-6 md:grid-cols-2">
         
         {/* Left Column */}
