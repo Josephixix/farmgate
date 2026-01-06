@@ -65,7 +65,7 @@ export default function Footer() {
         {/* Brand Text */}
         <div className="relative flex justify-center mt-12">
           <h1 className="text-[15vw] font-extrabold leading-none tracking-tight text-center text-black/10 select-none translate-y-[15%]">
-            FreshFarm
+            FarmGate
           </h1>
         </div>
 
