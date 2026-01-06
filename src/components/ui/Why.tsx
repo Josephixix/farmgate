@@ -40,14 +40,9 @@ export default function WhyChooseUs() {
                   src="/why2.jpg" 
                   alt="Fresh Agro Produce"
                   fill
-                  className="object-cover rounded-2xl opacity-80"
+                  className="object-cover rounded-2xl"
                 />
               </div>
-
-              {/* Text overlay */}
-              <p className="relative z-10 text-base md:text-lg font-extrabold text-black leading-tight">
-                Fresh <br /> Agro Produce
-              </p>
             </div>
           </div>
 
@@ -78,7 +73,7 @@ export default function WhyChooseUs() {
           />
 
           <div className="absolute inset-0 flex items-end justify-between p-6 bg-linear-to-t from-black/60 via-black/0 to-transparent">
-            <p className="text-2xl md:text-3xl font-semibold text-white drop-shadow-lg max-w-[60%] leading-tight">
+            <p className="text-2xl md:text-3xl font-semibold text-white  max-w-[60%] leading-tight">
               Fresh from farm to your doorstep
             </p>
 

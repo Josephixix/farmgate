@@ -29,7 +29,7 @@ export default function Hero() {
 
         {/* Text */}
         <div className="flex flex-col gap-4">
-          <h1 className="text-xl sm:text-5xl md:text-6xl font-semibold text-[#2B5631] tracking-tight leading-tight">
+          <h1 className="text-xl sm:text-3xl md:text-4xl font-semibold text-[#2B5631] tracking-tight leading-tight">
 
             From{" "}
             <span className="relative inline-block px-2">
@@ -76,9 +76,9 @@ export default function Hero() {
 </div>
 
 {/* Image */}
-<div className="relative w-full max-w-none md:max-w-3xl">
+<div className="relative w-full max-w-8xl md:max-w-6xl">
   <Image
-    src="/hero2.png"
+    src="/hero3.png"
     alt="Fresh agro produce"
     width={1200}
     height={800}

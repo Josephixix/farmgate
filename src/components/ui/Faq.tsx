@@ -60,7 +60,7 @@ export default function Faq() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.4 }}
-            className="border rounded-xl bg-white shadow-sm"
+            className="border rounded-xl bg-white "
           >
             <button
               onClick={() => toggle(index)}

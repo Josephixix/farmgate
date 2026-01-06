@@ -5,7 +5,7 @@ const produce = [
   {
     title: "Fresh Eggs",
     icon: Egg,
-    image: "/eggs.jpg",
+    image: "/egg2.jpg",
   },
   {
     title: "Healthy Chicken",
@@ -15,7 +15,7 @@ const produce = [
   {
     title: "Yam & Root Crops",
     icon: Sprout,
-    image: "/yam2.jpg",
+    image: "/yam22.jpg",
   },
   {
     title: "Fruits & Vegetables",
@@ -44,7 +44,7 @@ export default function Produce() {
           {produce.map(({ title, icon: Icon, image }) => (
             <div
               key={title}
-              className="bg-[#f8fdf6] rounded-2xl overflow-hidden hover:shadow-lg transition flex flex-col "
+              className="bg-[#f8fdf6] rounded-2xl overflow-hidden transition flex flex-col "
             >
               {/* Image */}
               <div className="relative h-52 w-full">
